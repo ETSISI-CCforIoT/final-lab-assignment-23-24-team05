@@ -27,7 +27,7 @@ namespace WaterLevelModule
             {
                 var waterLevelData = new WaterLevelData
                 {
-                    WaterLevel = random.NextDouble() * 100,
+                    WaterLevel = random.NextDouble() * 30 + 60, //values between 60 and 90
                     Timestamp = DateTime.UtcNow
                 };
 
@@ -42,7 +42,7 @@ namespace WaterLevelModule
                 await ioTHubModuleClient.SendEventAsync("output1", message);
                 Console.WriteLine($"Sent water level data: {messageString}");
 
-                await Task.Delay(5000); // Send data every 5 seconds
+                await Task.Delay(10000); // Send data every 10 seconds
             }
         }
 
