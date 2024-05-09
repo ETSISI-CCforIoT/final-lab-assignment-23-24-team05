@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\UX462\\Desktop\\cloudRepository\\waterlevel\\randomExample\\modules\\WaterLevelFilterModule\\WaterLevelFilterModule.csproj": {}
+    "C:\\Users\\kimiy\\Desktop\\final-lab-assignment-23-24-team05\\IoTEdgeModules\\modules\\WaterLevelFilterModule\\WaterLevelFilterModule.csproj": {}
   },
   "projects": {
-    "c:\\Users\\UX462\\Desktop\\cloudRepository\\waterlevel\\randomExample\\modules\\WaterLevelFilterModule\\WaterLevelFilterModule.csproj": {
+    "C:\\Users\\kimiy\\Desktop\\final-lab-assignment-23-24-team05\\IoTEdgeModules\\modules\\WaterLevelFilterModule\\WaterLevelFilterModule.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\UX462\\Desktop\\cloudRepository\\waterlevel\\randomExample\\modules\\WaterLevelFilterModule\\WaterLevelFilterModule.csproj",
+        "projectUniqueName": "C:\\Users\\kimiy\\Desktop\\final-lab-assignment-23-24-team05\\IoTEdgeModules\\modules\\WaterLevelFilterModule\\WaterLevelFilterModule.csproj",
         "projectName": "WaterLevelFilterModule",
-        "projectPath": "c:\\Users\\UX462\\Desktop\\cloudRepository\\waterlevel\\randomExample\\modules\\WaterLevelFilterModule\\WaterLevelFilterModule.csproj",
-        "packagesPath": "C:\\Users\\UX462\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\UX462\\Desktop\\cloudRepository\\waterlevel\\randomExample\\modules\\WaterLevelFilterModule\\obj\\",
+        "projectPath": "C:\\Users\\kimiy\\Desktop\\final-lab-assignment-23-24-team05\\IoTEdgeModules\\modules\\WaterLevelFilterModule\\WaterLevelFilterModule.csproj",
+        "packagesPath": "C:\\Users\\kimiy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kimiy\\Desktop\\final-lab-assignment-23-24-team05\\IoTEdgeModules\\modules\\WaterLevelFilterModule\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UX462\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\kimiy\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

@@ -10,7 +10,7 @@ namespace WaterLevelFilterModule
     public class WaterLevelData
     {
         public double WaterLevel { get; set; }
-        public bool OpenGates { get; set; }
+        public int OpenGates { get; set; }
         public DateTime Timestamp { get; set; }
     }
 
@@ -50,19 +50,23 @@ namespace WaterLevelFilterModule
                 var waterLevelData = JsonConvert.DeserializeObject<WaterLevelData>(messageString);
                 if (waterLevelData != null)
                 {
-                    waterLevelData.OpenGates = waterLevelData.WaterLevel > 80;
-
-                    var updatedMessageString = JsonConvert.SerializeObject(waterLevelData);
-                    var updatedMessageBytes = Encoding.UTF8.GetBytes(updatedMessageString);
-                    var updatedMessage = new Message(updatedMessageBytes)
-                    {
-                        ContentType = "application/json",
-                        ContentEncoding = "utf-8"
+                    if (waterLevelData.WaterLevel > 80) {
+                        waterLevelData.OpenGates = 1;
+                        
+                    }
+                    else{
+                        waterLevelData.OpenGates = 0;
+                    }
+                
+                    var data = new {
+                        water = waterLevelData.WaterLevel,
+                        openGate = waterLevelData.OpenGates
                     };
-
+                    var updatedMessageString = JsonConvert.SerializeObject(data);
+                    var updatedMessage = new Message(Encoding.ASCII.GetBytes(updatedMessageString));
                     await moduleClient.SendEventAsync("output1", updatedMessage);
 
-                    Console.WriteLine($"Processed message and sent to IoT Hub: {updatedMessageString}");
+                    Console.WriteLine("{0} > Sending message: {1}", DateTime.Now, updatedMessageString);
                 }
 
                 return MessageResponse.Completed;

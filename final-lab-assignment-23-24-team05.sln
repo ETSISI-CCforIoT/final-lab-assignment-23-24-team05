@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimulatedDevices", "SimulatedDevices", "{C07B66BE-DA57-4317-BEE2-943806F0A479}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "simulated-device-2", "SimulatedDevices\simulated-device-2\simulated-device-2.csproj", "{41686942-834F-4097-8E7B-432ECAAE42F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "simulated-device-3", "SimulatedDevices\simulated-device-3\simulated-device-3.csproj", "{AEEE139D-52FD-4AB3-AE6B-4C84DA17C68D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoTEdgeModules", "IoTEdgeModules", "{2E1BA2ED-1B42-4DF7-B009-244ED20F7653}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{02BF04B9-095B-45B2-AB95-6154A3A051EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaterLevelFilterModule", "IoTEdgeModules\modules\WaterLevelFilterModule\WaterLevelFilterModule.csproj", "{05DE6CAF-4EBC-4654-90F6-72F80A3FA56D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaterLevelModule", "IoTEdgeModules\modules\WaterLevelModule\WaterLevelModule.csproj", "{3481EA04-B0A7-48EF-8A07-7693FEF047B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41686942-834F-4097-8E7B-432ECAAE42F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41686942-834F-4097-8E7B-432ECAAE42F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41686942-834F-4097-8E7B-432ECAAE42F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41686942-834F-4097-8E7B-432ECAAE42F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEEE139D-52FD-4AB3-AE6B-4C84DA17C68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEEE139D-52FD-4AB3-AE6B-4C84DA17C68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEEE139D-52FD-4AB3-AE6B-4C84DA17C68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEEE139D-52FD-4AB3-AE6B-4C84DA17C68D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05DE6CAF-4EBC-4654-90F6-72F80A3FA56D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05DE6CAF-4EBC-4654-90F6-72F80A3FA56D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05DE6CAF-4EBC-4654-90F6-72F80A3FA56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05DE6CAF-4EBC-4654-90F6-72F80A3FA56D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3481EA04-B0A7-48EF-8A07-7693FEF047B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3481EA04-B0A7-48EF-8A07-7693FEF047B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3481EA04-B0A7-48EF-8A07-7693FEF047B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3481EA04-B0A7-48EF-8A07-7693FEF047B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{41686942-834F-4097-8E7B-432ECAAE42F9} = {C07B66BE-DA57-4317-BEE2-943806F0A479}
+		{AEEE139D-52FD-4AB3-AE6B-4C84DA17C68D} = {C07B66BE-DA57-4317-BEE2-943806F0A479}
+		{02BF04B9-095B-45B2-AB95-6154A3A051EE} = {2E1BA2ED-1B42-4DF7-B009-244ED20F7653}
+		{05DE6CAF-4EBC-4654-90F6-72F80A3FA56D} = {02BF04B9-095B-45B2-AB95-6154A3A051EE}
+		{3481EA04-B0A7-48EF-8A07-7693FEF047B6} = {02BF04B9-095B-45B2-AB95-6154A3A051EE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD8EC5DF-D7A6-4B2F-903F-6A4216CAAADE}
+	EndGlobalSection
+EndGlobal

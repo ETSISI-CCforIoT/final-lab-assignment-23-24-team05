@@ -11,9 +11,9 @@
             "loggingOptions": "",
             "registryCredentials": {
               "docker": {
-                "username": "$CONTAINER_REGISTRY_USERNAME_docker",
-                "password": "$CONTAINER_REGISTRY_PASSWORD_docker",
-                "address": "$CONTAINER_REGISTRY_SERVER_docker"
+                "username": "group5containerRegistry",
+                "password": "hNxXwOsVah4M7fD3HnaKQzGEvR12nYkPhYdAvKsCaz+ACRB7nDk3",
+                "address": "group5containerregistry.azurecr.io"
               }
             }
           }

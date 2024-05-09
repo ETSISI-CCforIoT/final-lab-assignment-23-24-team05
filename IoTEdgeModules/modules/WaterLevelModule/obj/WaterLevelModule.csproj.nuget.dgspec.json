@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\UX462\\cloudFinalGroup\\Group5Solution\\modules\\WaterLevelModule\\WaterLevelModule.csproj": {}
+    "C:\\Users\\kimiy\\Desktop\\final-lab-assignment-23-24-team05\\IoTEdgeModules\\modules\\WaterLevelModule\\WaterLevelModule.csproj": {}
   },
   "projects": {
-    "c:\\Users\\UX462\\cloudFinalGroup\\Group5Solution\\modules\\WaterLevelModule\\WaterLevelModule.csproj": {
+    "C:\\Users\\kimiy\\Desktop\\final-lab-assignment-23-24-team05\\IoTEdgeModules\\modules\\WaterLevelModule\\WaterLevelModule.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\UX462\\cloudFinalGroup\\Group5Solution\\modules\\WaterLevelModule\\WaterLevelModule.csproj",
+        "projectUniqueName": "C:\\Users\\kimiy\\Desktop\\final-lab-assignment-23-24-team05\\IoTEdgeModules\\modules\\WaterLevelModule\\WaterLevelModule.csproj",
         "projectName": "WaterLevelModule",
-        "projectPath": "c:\\Users\\UX462\\cloudFinalGroup\\Group5Solution\\modules\\WaterLevelModule\\WaterLevelModule.csproj",
-        "packagesPath": "C:\\Users\\UX462\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\UX462\\cloudFinalGroup\\Group5Solution\\modules\\WaterLevelModule\\obj\\",
+        "projectPath": "C:\\Users\\kimiy\\Desktop\\final-lab-assignment-23-24-team05\\IoTEdgeModules\\modules\\WaterLevelModule\\WaterLevelModule.csproj",
+        "packagesPath": "C:\\Users\\kimiy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kimiy\\Desktop\\final-lab-assignment-23-24-team05\\IoTEdgeModules\\modules\\WaterLevelModule\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UX462\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\kimiy\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,15 +40,11 @@
           "dependencies": {
             "Microsoft.Azure.Devices.Client": {
               "target": "Package",
-              "version": "[1.42.0, )"
+              "version": "[1.41.3, )"
             },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
-              "version": "[7.0.1, )"
-            },
-            "Microsoft.NET.Build.Containers": {
-              "target": "Package",
-              "version": "[7.0.401, )"
+              "version": "[6.0.1, )"
             }
           },
           "imports": [
