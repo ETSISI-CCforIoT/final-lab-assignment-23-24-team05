@@ -50,7 +50,7 @@ namespace WaterLevelFilterModule
                 var waterLevelData = JsonConvert.DeserializeObject<WaterLevelData>(messageString);
                 if (waterLevelData != null)
                 {
-                    if (waterLevelData.WaterLevel > 60) {
+                    if (waterLevelData.WaterLevel > 70) {
                         waterLevelData.OpenGates = 1;
                         
                     }
