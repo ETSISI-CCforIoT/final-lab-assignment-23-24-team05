@@ -27,7 +27,7 @@ namespace WaterLevelModule
             {
                 var waterLevelData = new WaterLevelData
                 {
-                    WaterLevel = random.NextDouble() * 30 + 60, //values between 60 and 90
+                    WaterLevel = random.NextDouble() * 10 + 30, //values between 60 and 90
                     Timestamp = DateTime.UtcNow
                 };
 
